@@ -8,7 +8,7 @@ Using this simple jQuery plugin is pretty straightforward.
 
 ### Include the Plugin
 
-Include either the minified version or the development version in your document. We recommend adding it to your footer just before the closing body tag but you can also add it to the head of your document. <strong>NOTE</strong>: You must include jQuery before the Toggle Checkboxes plugin.
+Include either the minified version or the development version in your document. I recommend adding it to your footer just before the closing body tag but you can also add it to the head of your document. <strong>NOTE</strong>: You must include jQuery before the Toggle Checkboxes plugin.
 
     <script src="jquery.toggleCheckboxes.min.js"></script>
 
