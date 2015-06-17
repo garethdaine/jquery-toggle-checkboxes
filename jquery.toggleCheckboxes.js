@@ -1,6 +1,6 @@
 /*!
  * jQuery Toggle Checkboxes (https://github.com/garethdaine/jquery-toggle-checkbox)
- * Copyright 2015 Gareth Daine
+ * Copyright (c) 2015 Gareth Daine
  * Licensed under MIT (https://github.com/garethdaine/jquery-toggle-checkbox)
  */
 (function($) {
