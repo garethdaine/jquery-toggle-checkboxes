@@ -1,10 +1,14 @@
 # jQuery Toggle Checkboxes
 
-A jQuery plugin that checks/unchecks all checkboxes on a page based on the change state of another checkbox.
+A simple jQuery plugin that checks/unchecks all enabled checkboxes on a page based on the change state of another single checkbox.
 
 ## Usage
 
 Using this simple jQuery plugin is pretty straightforward.
+
+### Install with Bower
+
+    bower install jquery-toggle-checkboxes
 
 ### Include the Plugin
 

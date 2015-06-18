@@ -1,0 +1,24 @@
+{
+  "name": "jQuery Toggle Checkboxes",
+  "version": "1.0.0",
+  "authors": [
+    "Gareth Daine <info@affinitycloud.co.uk>"
+  ],
+  "description": "A simple jQuery plugin that checks/unchecks all enabled checkboxes based on the change state of another single checkbox element.",
+  "main": "jquery.toggleCheckboxes.min.js",
+  "keywords": [
+    "jquery",
+    "checkboxes",
+    "checkbox",
+    "toggle"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/garethdaine/jquery-toggle-checkboxes",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
