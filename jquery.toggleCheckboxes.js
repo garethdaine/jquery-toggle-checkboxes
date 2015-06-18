@@ -6,7 +6,7 @@
 (function($) {
 	$.fn.toggleCheckboxes = function() {
 		// Get all checkbox elements
-		checkboxes = $(':checkbox').not(this);
+		checkboxes = $(':checkbox').not(this).not(':disabled');
 
 		// Check if the checkboxes are checked/unchecked and if so uncheck/check them
 		if(this.is(':checked')) {
