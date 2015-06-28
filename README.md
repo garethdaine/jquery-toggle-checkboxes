@@ -29,7 +29,7 @@ Next, simply attach the plugin to your 'check all' checkbox, like so.
 Alternatively, you can attach the plugin via the jQuery on('change') event for use with dynamically generated forms, such as when using AJAX requests to add new checkbox fields.
 
     $(document).ready(function () {
-      $(document).on('change', '#check-all', function() {
+      $('#check-all').on('change', function() {
         $(this).toggleCheckboxes();
       });
     });

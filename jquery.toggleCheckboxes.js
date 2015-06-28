@@ -10,9 +10,9 @@
 
 		// Check if the checkboxes are checked/unchecked and if so uncheck/check them
 		if(this.is(':checked')) {
-			checkboxes.prop('checked', true);
-		} else {
-			checkboxes.prop('checked', false);
+			return checkboxes.prop('checked', true);
 		}
+		
+		return checkboxes.prop('checked', false);
 	}
 }(jQuery));
