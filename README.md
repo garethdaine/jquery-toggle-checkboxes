@@ -19,17 +19,13 @@ Include either the minified version or the development version in your document.
 ### Attach the Plugin
 
 Next, simply attach the plugin to your 'check all' checkbox, like so.
-
-    $(document).ready(function() {
-      $('#check-all').change(function() {
-        $(this).toggleCheckboxes();
-      });
+      
+    $('#check-all').change(function() {
+      $(this).toggleCheckboxes();
     });
 
 Alternatively, you can attach the plugin via the jQuery on('change') event for use with dynamically generated forms, such as when using AJAX requests to add new checkbox fields.
 
-    $(document).ready(function () {
-      $('#check-all').on('change', function() {
-        $(this).toggleCheckboxes();
-      });
+    $(document).on('change', '#check-all', function() {
+      $(this).toggleCheckboxes();
     });
